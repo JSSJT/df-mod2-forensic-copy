@@ -21,3 +21,4 @@ If the subfolders already exist, the respective script will stop execution.
 
 The 05_verify_integrity script will run regardless.  If you have mismatching files/file counts between the two folders, you'd end up with an error, which would be a clear indicator the contents of the two folders are not identical.
 
+## The presence of the folders are there for assignment grading.  If downloading to run/verify locally, delete the folders-- the scripts will create them each time.  Otherwise the scripts will not execute as they'll assume the files already exist...
