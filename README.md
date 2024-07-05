@@ -11,10 +11,13 @@
 - The hash values are compared between the original hashes and the copy file hashes
 
 
-### Heading 3
+## Run the Scripts in order of their numerical prefix.
 
-Run the Scripts in order of their numerical prefix.
 
-There are a thousand exceptions I could check for.  THe scripts will really only look to see that the folders aren't pre-existing (meaning they're already been run).
-If the subfolders already exist, the respective script will stop execution.  The 05_verify_integrity script will run regardless.  If you have mismatching files/file counts between the two folders, you'd end up with an error, which would be a clear indicator the contents of the two folders are not identical.
+There are a thousand exceptions I could check for.
+
+The scripts will really only look to see that the folders aren't pre-existing (meaning they've already been run).
+If the subfolders already exist, the respective script will stop execution.  
+
+The 05_verify_integrity script will run regardless.  If you have mismatching files/file counts between the two folders, you'd end up with an error, which would be a clear indicator the contents of the two folders are not identical.
 
